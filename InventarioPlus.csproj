@@ -89,6 +89,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Atlas_Inventario.sql" />
+    <Content Include="ImagenesBotones\borrar.png" />
+    <Content Include="ImagenesBotones\cerrar.png" />
+    <Content Include="Logo\ATLAS CORP.png" />
     <Content Include="Logo\inventario.ico" />
     <Content Include="Logo\inventario.png" />
   </ItemGroup>
