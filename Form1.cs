@@ -14,6 +14,7 @@ using System.Data.SqlClient;
 using System.Data.Sql;
 
 using System.Security.Cryptography;
+using System.Drawing;
 
 
 namespace InventarioPlus
@@ -24,6 +25,11 @@ namespace InventarioPlus
         public frmLogin()
         {
             InitializeComponent();
+        }
+
+        public class SessionInfo
+        {
+            public static string u
         }
 
 
