@@ -1,20 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using System.Windows.Forms;
 
 // Libreria para poder arrastrar el formulario con el puntero
 using System.Runtime.InteropServices;
 
+//base de datos
+using System.Data.SqlClient;
+using System.Data.Sql;
+
+using System.Security.Cryptography;
+
+
 namespace InventarioPlus
 {
     public partial class frmLogin : Form
     {
+        
         public frmLogin()
         {
             InitializeComponent();
